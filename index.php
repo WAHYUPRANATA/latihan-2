@@ -1,3 +1,10 @@
+<?
+//variabel dan tipe data
+//variabel digunakan untuk menyimpan data
+//aturan variabel "tidak boleh di awali dengan angka tapi boleh mengandung angka"
+
+$nama="eka";
+?>
 <!DOCTYPE html>
 <!DOCTYPE html>
 <html>
