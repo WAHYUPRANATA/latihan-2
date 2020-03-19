@@ -1,8 +1,26 @@
 <?php
 
-$nama_depan="wahyu";
-$nama_belakang="pranata";
-	echo $nama_depan."".$nama_belakang;
+$x=10;
+$x +=2; #operator assigment +=
+	echo $x "</br>";
+
+$y=10;
+$y -=2; #operator assigment -=
+	echo $y "</br>";
+
+$z=10;
+$z /=2; #operator assigment /=
+	echo $z "</br>";
+
+$q=10;
+$q .=2; #operator assigment .=
+	echo $q "</br>";
+
+$u=10;
+$u %=2; #operator assigment %=
+	echo $u "</br>";
+
+	echo $x."".$y."".$z."".$q."".$u;
 ?>
 <!DOCTYPE html>
 <!DOCTYPE html>
