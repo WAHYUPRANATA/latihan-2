@@ -2,12 +2,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>
+		Belaajar PHP
+	</title>
 </head>
 <body>
-	<?php
-	echo "hello word";
-	?>
+	<h1>
+		selamat datang<?echo "masukkan nama anda";?>
+	</h1>
+	
 
 </body>
 </html> 
