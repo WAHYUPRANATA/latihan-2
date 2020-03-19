@@ -4,6 +4,8 @@
 //aturan variabel "tidak boleh di awali dengan angka tapi boleh mengandung angka"
 
 $nama="eka";
+echo "hallo,selamat datang $nama</br>"; #petik2
+echo 'hallo,selamat datang $nama';#petik1
 ?>
 <!DOCTYPE html>
 <!DOCTYPE html>
