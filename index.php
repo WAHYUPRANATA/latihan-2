@@ -1,11 +1,13 @@
 <?
-//variabel dan tipe data
-//variabel digunakan untuk menyimpan data
-//aturan variabel "tidak boleh di awali dengan angka tapi boleh mengandung angka"
+//operator aritmatika
 
-$nama="eka";
-echo "hallo,selamat datang $nama</br>"; #petik2
-echo 'hallo,selamat datang $nama';#petik1
+$x=10;
+$y=20;
+	echo $x+$y;
+	echo $x-$y;
+	echo $x*$y;
+	echo $x/$y;
+	echo $x%$y;
 ?>
 <!DOCTYPE html>
 <!DOCTYPE html>
