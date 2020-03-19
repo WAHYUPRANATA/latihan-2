@@ -1,13 +1,8 @@
-<?
-//operator aritmatika
+<?php
 
-$x=10;
-$y=20;
-	echo $x+$y;
-	echo $x-$y;
-	echo $x*$y;
-	echo $x/$y;
-	echo $x%$y;
+$nama_depan="wahyu";
+$nama_belakang="pranata";
+	echo $nama_depan."".$nama_belakang;
 ?>
 <!DOCTYPE html>
 <!DOCTYPE html>
