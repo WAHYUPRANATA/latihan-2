@@ -2,11 +2,11 @@
 //pungulangan
 //while
 
-//echo "Mengunakan perulangan WHILE";
+echo "<h2>Menggunakan perulangan WHILE</h2>";
 
-$i = 0;
-while ($i < 5){ 
-echo "Hai,Dunia! <br>";
+$i = 1;
+while ($i < 6){ 
+echo "Hai,ini baris ke-$i <br>";
 	$i++
 }
 
