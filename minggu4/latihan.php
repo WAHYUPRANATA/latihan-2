@@ -1,13 +1,13 @@
-<?php;
+<?php
 //pungulangan
-//for
+//while
 
-echo "Mengunakan perulangan FOR";
+//echo "Mengunakan perulangan WHILE";
 
-for($i=0;$i<5;i++){
-	echo "Hai saya urutan ke-$i !<br>";
+$i = 0;
+while ($i < 5){ 
+echo "Hai,Dunia! <br>";
+	$i++
 }
-/* $i=0; bagian inisialisai/menentukan variabel
-$i<5; bagian kondisi/memberhentikan kondisi pengulangan ketika berjumlah <5
-i++ bagian increment(menambah) kondisi*/
-/>
+
+?>
