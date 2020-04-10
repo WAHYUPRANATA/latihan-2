@@ -1,13 +1,9 @@
 <?php
 //date untuk menampilkan tanggal dengan format tertentu
 
-    echo date("l");
-    echo " <br>";
-    echo date("d");
-    echo " <br>";
-    echo date("M");
-    echo " <br>";
-    echo date("m");
-    echo " <br>";
-    echo date("Y");
+    echo date("l, d-M-Y",
+time() +
+60*60*60*24*100
+);
+    
 ?>
