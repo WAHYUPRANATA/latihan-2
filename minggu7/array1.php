@@ -2,7 +2,7 @@
 //perulangan pad array
 //dengan for atau foreach
 
-$angka = [1,3,5,7,9];
+$angka = [1,3,5,7,9,11,13,17];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -26,16 +26,16 @@ $angka = [1,3,5,7,9];
     </style>
 </head>
 <body>
-    <?php for ($i =0;$i<5;$i++) {?>
+    <?php for ($i =0;$i<=7;$i++) {?>
 
     <div class="kotak">
-    <?php echo $angka[$i]; ?>
+    <?= $angka[$i]; ?>
     </div>
 
    <?php }?>
    <div class="clear"></div>
    <?php foreach($angka as $a): ?>
-    <div class="kotak"><?php echo $a?></div>
+    <div class="kotak"><?= $a?></div>
    <?php endforeach;?>
 </body>
 </html>
