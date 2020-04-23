@@ -15,7 +15,7 @@ $mahasiswa =[
 </head>
 <body>
   <h1>Daftar Mahasiswa</h1>
-  <?php foreach($mahasiswa as $mhs): ?>
+  <?php foreach($mahasiswa as $mhs): ?> 
   <ul>
   <?php foreach($mhs as $m): ?>
         <li> <?php echo $m; ?></li>
