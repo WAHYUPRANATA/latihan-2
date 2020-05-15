@@ -32,6 +32,7 @@
         [7,8,9]
     ];
 ?>
+
     <?php foreach($angka as $a):?>
         <?php foreach($a as $b):?>
             <div class="kotak"><?= $b; ?></div>
