@@ -1,5 +1,5 @@
 <?php
-//array multidimensi
+//array multidimensi LATIHAN
 $hewan=[
             ["nama"=>"Elang",
             "jenis"=>"Unggas",
