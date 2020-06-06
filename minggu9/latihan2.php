@@ -6,6 +6,8 @@
     <title>Detail Mahasiswa</title>
 </head>
 <body>
+
+<h1>Detail Hewan</h1>
     <ul>
     <li><img src="img/<?= $_GET["gambar"]?>"></li>
     <li><?= $_GET["nama"]?></li>
