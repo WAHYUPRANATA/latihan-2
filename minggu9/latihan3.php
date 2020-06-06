@@ -6,8 +6,11 @@
     <title>Metode POST</title>
 </head>
 <body>
-
-    <form action="latihan4.php" method="POST">
+<?php
+if(isset($_POST["submit"])):?>
+<h1>selamat datang <?= $_POST["nama"];?></h1>
+<?php endif;?>
+    <form action="" method="POST">
     Masukkan Nama:
     <input type="text" name="nama">
     <br>
