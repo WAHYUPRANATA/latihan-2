@@ -35,7 +35,7 @@ $hewan=[
     <title>latihan GET</title>
 </head>
 <body>
-    <h1>daftar hewan</h1>
+    <h1>Daftar Hewan</h1>
     <ul>
         <?php foreach($hewan as $h):?>
             <li>
