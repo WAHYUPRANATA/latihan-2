@@ -1,4 +1,5 @@
 <?php
+//keamanan
 if(!isset($_POST["submit"])){
     //redirect
     header("Location: latihan3.php");
