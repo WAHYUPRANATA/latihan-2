@@ -22,23 +22,30 @@ $eror = true;
     <h1>Login Admin</h1>
 
     <?php if (isset($eror)):?>
-    <p>salah satu gaes</p>
+    <p style="color:red;font-style:italic">salah satu gaes</p>
     <?php endif;?>
-
-    <ul> 
-     <form action="" method="POST">
-        <li>
-            <label for="username">Username:</label>
-            <input type="text" name="username" id="username">
-        </li>
-        <li>
+ <table>
+ <form action="" method="POST">
+ <tr> 
+        <td><label for="username">Username:</label></td>
+        <td><input type="text" name="username" id="username">
+        </td>
+        </tr>
+        
+        <tr>
+        <td>
             <label for="password">Password:</label>
+            </td><td>
             <input type="password" name="password" id="password">
-        </li>
-        <li>
+        <td>
+        <tr>
+        <td>
             <button type="submit" name="submit">Login</button>
-        </li>  
-    </ul>
+        </td> 
+        </tr> 
+    </tr>
     </form>
+ </table>
+    
 </body>
 </html>
